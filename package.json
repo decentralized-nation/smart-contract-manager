@@ -9,6 +9,8 @@
   "author": "Devin Herath",
   "license": "MIT",
   "dependencies": {
+    "ganache-cli": "^6.4.0",
+    "mocha": "^6.0.2",
     "solc": "^0.4.17"
   }
 }
