@@ -20,6 +20,7 @@ beforeEach(async () => {
 });
 
 describe('Inbox', () => {
+    require('events').EventEmitter.defaultMaxListeners = 0;
     it('deploys a contract', () => {
         assert.ok(inbox.options.address);
     });
